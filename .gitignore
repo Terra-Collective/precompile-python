@@ -1,0 +1,3 @@
+precompile_python.egg-info
+.venv
+src/ecrecover/__pycache__
