@@ -1,8 +1,32 @@
-# dependencies
-requests >= 2.31.0
-pydantic >= 2.0
-
-# dev dependencies
-pytest >= 8.0.0
-black >= 24.0.0
-ruff >= 0.3.0
+annotated-types==0.8.0
+black==26.10.1
+certifi==2026.7.22
+charset-normalizer==3.5.2
+click==8.5.0
+cytoolz==1.2.0
+eth-hash==0.8.0
+eth-keys==0.8.0
+eth-typing==6.0.0
+eth-utils==6.0.0
+hypothesis==6.169.0
+idna==3.20
+iniconfig==2.3.1
+mypy_extensions==1.1.0
+packaging==26.3
+pathspec==1.1.1
+platformdirs==4.13.0
+pluggy==1.6.0
+-e git+ssh://git@github.com/Terra-Collective/precompile-python.git@c8cf1b748a73e6e1e2e5fc4b0fd6b6f2d0d2379f#egg=precompile_python
+pycryptodome==3.24.0
+pydantic==2.14.0
+pydantic_core==2.50.0
+Pygments==2.21.0
+pytest==9.1.1
+pytokens==0.4.1
+requests==2.34.2
+ruff==0.17.0
+sortedcontainers==2.4.0
+toolz==1.2.0
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+urllib3==2.8.0
